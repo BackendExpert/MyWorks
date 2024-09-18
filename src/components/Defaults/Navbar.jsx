@@ -11,7 +11,7 @@ const Navbar = () => {
         { id: 3, name: 'VSCode Extensions', link: '' },
         { id: 4, name: 'Web Based Application', link: '' },
         { id: 5, name: 'Blogs', link: '' },
-        { id: 6, name: 'Contact Me', link: '' },
+        { id: 6, name: 'Android Apps', link: '' },
     ];
 
     const toggleMobileMenu = () => {
