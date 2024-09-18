@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import FetchData from "./components/FetchFromURL/FetchData";
+import HomePage from "./components/HomePage/HomePage";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<FetchData />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
   )
