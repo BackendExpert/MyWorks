@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage/HomePage";
 import Navbar from "./components/Defaults/Navbar";
 import Footer from "./components/Defaults/Footer";
 import NpmPackages from "./components/NPMpackages/NpmPackages";
+import ViewPackage from "./components/NPMpackages/ViewPackage";
 
 
 export default function App() {
@@ -42,7 +43,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/NpmPackages" element={<NpmPackages />} />
-        
+          <Route path="/ViewPackage/:id" element={<ViewPackage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
