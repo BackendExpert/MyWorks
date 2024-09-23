@@ -1,0 +1,9 @@
+{
+    "npmPackages" : [
+        {
+            "id": 1,
+            "pckName": "JKCSS-Framework",
+            "npmLink": "https://www.npmjs.com/package/@jehankandy/jkcss"
+        }
+    ]
+}
