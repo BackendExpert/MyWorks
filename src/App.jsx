@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import Navbar from "./components/Defaults/Navbar";
 import Footer from "./components/Defaults/Footer";
+import NpmPackages from "./components/NPMpackages/NpmPackages";
 
 
 export default function App() {
@@ -40,6 +41,8 @@ export default function App() {
         </div>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/NpmPackages" element={<NpmPackages />} />
+        
         </Routes>
         <Footer />
       </BrowserRouter>
