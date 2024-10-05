@@ -5,6 +5,7 @@ import Navbar from "./components/Defaults/Navbar";
 import Footer from "./components/Defaults/Footer";
 import NpmPackages from "./components/NPMpackages/NpmPackages";
 import ViewPackage from "./components/NPMpackages/ViewPackage";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 
 export default function App() {
@@ -44,6 +45,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/NpmPackages" element={<NpmPackages />} />
           <Route path="/ViewPackage/:id" element={<ViewPackage />} />
+          <Route path="/Portfolio" element={<Portfolio /> } />
         </Routes>
         <Footer />
       </BrowserRouter>
