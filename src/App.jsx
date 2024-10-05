@@ -44,7 +44,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/NpmPackages" element={<NpmPackages />} />
-          <Route path="/ViewPackage/:id" element={<ViewPackage />} />
+          <Route path="/ViewPackage/:NamePCK" element={<ViewPackage />} />
           <Route path="/Portfolio" element={<Portfolio /> } />
         </Routes>
         <Footer />
