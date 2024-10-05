@@ -24,7 +24,7 @@ const Portfolio = () => {
                 </p>
 
 
-                <a href="">
+                <a href="../../assets/JehanWeerasuriyaNewCV.pdf" target='_blank'>
                     <button className='bg-[#536DFE] py-4 px-8 rounded-full text-white font-semibold my-4'>Download CV</button>
                 </a>
                 
