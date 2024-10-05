@@ -9,7 +9,7 @@ const Navbar = () => {
         { id: 1, name: 'Home', link: '/' },
         { id: 1, name: 'My Portfolio', link: '/Portfolio' },
         { id: 2, name: 'NPM Packages', link: '/NpmPackages' },
-        { id: 3, name: 'VSCode Extensions', link: '' },
+        { id: 3, name: 'VSCode Extensions', link: 'https://marketplace.visualstudio.com/search?term=JehanKandy&target=VSCode&category=All%20categories&sortBy=Relevance' },
         { id: 4, name: 'Web Based Application', link: '' },
         { id: 5, name: 'Blogs', link: '' },
         { id: 6, name: 'Android Apps', link: '' },

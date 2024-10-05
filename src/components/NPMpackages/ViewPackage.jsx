@@ -38,11 +38,15 @@ const ViewPackage = () => {
         },
         {
             id: 5, 
-            pckName: 'login-signup-react'
+            pckName: 'login-signup-react',
+            npmLink: 'https://www.npmjs.com/package/jkmysql-easy',
+            pckDesc: 'This NPM Package is Develop for ReactJS Frontend Developers to make development easy. Currently v6.0.0 - 19 August 2024'
         },
         {
             id: 6, 
-            pckName: 'js-wysiwyg-editor'
+            pckName: 'js-wysiwyg-editor',
+            npmLink: 'https://www.npmjs.com/package/js-wysiwyg-editor',
+            pckDesc: 'This is the what you see is what you get editor for ReactJS Development. Currently v1.0.0 - 30 May 2024'
         },
     ]
 
