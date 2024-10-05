@@ -7,7 +7,7 @@ const Navbar = () => {
 
     const navData = [
         { id: 1, name: 'Home', link: '/' },
-        { id: 1, name: 'My Portfolio', link: '/' },
+        { id: 1, name: 'My Portfolio', link: '/Portfolio' },
         { id: 2, name: 'NPM Packages', link: '/NpmPackages' },
         { id: 3, name: 'VSCode Extensions', link: '' },
         { id: 4, name: 'Web Based Application', link: '' },

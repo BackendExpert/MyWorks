@@ -18,7 +18,7 @@ const HomePage = () => {
                     In here is my Work According to the Fullstack Developer, VScode Extensions Developer and NPM Package Developer
                 </p>
 
-                <a href="">
+                <a href="/Portfolio">
                     <button className='bg-[#536DFE] py-4 px-8 rounded-full text-white font-semibold my-4'>Get Started</button>
                 </a>
                 
